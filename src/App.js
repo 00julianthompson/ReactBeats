@@ -1,8 +1,17 @@
 
+import Beatform from "./components/Beatform/Beatform";
 import  NavBar  from "./components/Navbar/Navbar";
 
 function App() {
- return <NavBar/>
+ return (
+   <div>
+<NavBar/>
+<Beatform/>
+   </div>
+
+
+ ) 
+
    
 }
 

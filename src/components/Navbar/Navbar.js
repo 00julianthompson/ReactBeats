@@ -3,10 +3,8 @@ import "./Navbar.css";
 function NavBar() {
     return (
         <div className="NavBar">
-      <h1 className="Page_Title">
-          TRUST
-
-      </h1>
+      <h1 className="Page_Title">TRUST</h1>
+      
       <ul>
         <li><a href="/Home">Home</a></li>
         <li><a href="/Beats">Beats</a></li>
